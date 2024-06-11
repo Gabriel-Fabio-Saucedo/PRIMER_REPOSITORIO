@@ -3,5 +3,4 @@ arroz
 fideo
 banana
 manzana
-agua
-gaseosas
+
