@@ -1,0 +1,5 @@
+pan
+arroz
+fideo
+banana
+manzana
