@@ -7,17 +7,23 @@
     <script>
         const dist1 = parseInt(prompt(`ingrese la distancia que desea recorrer:`))
         if (Number.isNaN(dist1)) {
-            document.write(`el dato ingresado es incorrecto`)
+            document.write(`el dato ingresado es incorrecto`);
+            console.log(`el dato ingresado es incorrecto`);
         } else if (dist1>0 && dist1<1001) {
             document.write(`Se le recomienda ir a su destino a pie`);
+            console.log(`Se le recomienda ir a su destino a pie`);
         } else if (dist1>1000 && dist1<10001) {
             document.write(`Se le recomienda ir en bicicleta a su destino`);
+            console.log(`Se le recomienda ir en bicicleta a su destino`);
         } else if (dist1>10000 && dist1<30001) {
-            document.write(`Se le recomienda ir a su destino en colectivo`)
+            document.write(`Se le recomienda ir a su destino en colectivo`);
+            console.log(`Se le recomienda ir a su destino en colectivo`);
         } else if (dist1>30000 && dist1<100001) {
-            document.write(`Se le recomienda ir a su destino en auto`)
+            document.write(`Se le recomienda ir a su destino en auto`);
+            console.log(`Se le recomienda ir a su destino en auto`);
         } else {
-            document.write(`Se le recomienda ir en avion a su destino`)
+            document.write(`Se le recomienda ir en avion a su destino`);
+            console.log(`Se le recomienda ir en avion a su destino`)
         }
     </script>
 </head>
