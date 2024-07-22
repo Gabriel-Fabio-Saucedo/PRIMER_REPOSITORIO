@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1JavaAvanzado</title>
+    <link rel="stylesheet" href="cssejercicio1.css">
+    <script>
+        function colorfondo(color) {
+            document.querySelector(`body`).style.background=color;
+        }
+    </script>
+</head>
+<body>
+    <div id="fondo">
+    <div id="caja1" onclick="colorfondo(`red`)" class="caja">caja1</div>
+    <div id="caja2" onclick="colorfondo(`green`)" class="caja">caja2</div>
+    <div id="caja3" onclick="colorfondo(`blue`)" class="caja">caja3</div>
+</div>
+</body>
+</html>
